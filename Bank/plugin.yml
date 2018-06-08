@@ -6,6 +6,6 @@ load: POSTWORLD
 author: Duy2Phong
 description: Add Bank to PocketMine server !
 commands:
- nganhang:
+ bank:
   description: "Bank"
   usage: "/bank help"
