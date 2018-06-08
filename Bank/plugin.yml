@@ -1,0 +1,11 @@
+name: Bank
+main: Duy2Phong\Bank\Main
+version: 1.1.0
+api: [3.0.0-ALPHA7, 3.0.0-ALPHA8, 3.0.0-ALPHA9, 3.0.0-ALPHA10, 3.0.0-ALPHA11, 3.0.0-ALPHA12]
+load: POSTWORLD
+author: Duy2Phong
+description: Add Bank to PocketMine server !
+commands:
+ nganhang:
+  description: "Bank"
+  usage: "/bank help"
