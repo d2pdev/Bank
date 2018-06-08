@@ -65,7 +65,7 @@ class Main extends PluginBase{
 			case "bank":
 				if(isset($ar[0])){
 					$ten = $sender->getName();
-					$all = $this->bank>getAll();
+					$all = $this->bank->getAll();
 					$money = $this->eco->myMoney($ten);
 					if(!$this->kiemTra($ten)){
 					$this->taoNguoiDung($ten);
