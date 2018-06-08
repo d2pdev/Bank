@@ -1,6 +1,6 @@
 <?php
 
-namespace Duy2Phong\B;
+namespace Duy2Phong\Bank;
 /*
  *
  * @author Duy2Phong
