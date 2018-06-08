@@ -4,7 +4,7 @@ namespace Duy2Phong\NganHang;
 /*
  *
  * @author Duy2Phong
- * @link 
+ * @link https://poggit.pmmp.io/ci/d2pdev/Bank/Bank
  *
  *
 */
@@ -77,9 +77,9 @@ class Main extends PluginBase{
 					}
 					if($ar[0] == 'version' or $ar[0] == 'ver'){
 						$sender->sendMessage('§f-> §2Bank§f <-');
-						$sender->sendMessage('Current version : §e1.1.');
+						$sender->sendMessage('Current version : §e1.1.0');
 						$sender->sendMessage('author : Duy2Phong ');
-					  $sender->sendMessage('Update to the latest version at : ');
+					  $sender->sendMessage('Update to the latest version at : https://poggit.pmmp.io/ci/d2pdev/Bank/Bank');
 						return true;
 					}
 					if($ar[0] == 'help'){
